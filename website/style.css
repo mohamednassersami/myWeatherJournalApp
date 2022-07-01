@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background: url(./img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: 'Lobster', 'Inconsolata', sans-serif;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  color: rgb(106, 241, 248);
+  background-color: #0a113a;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#zip,
+#feelings {
+  padding: 1rem;
+  background: #17053866;
+  margin: 50px auto;
+  width: 40%;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  resize: none;
+}
+#zip::placeholder,
+#feelings::placeholder {
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Lobster', 'Inconsolata', sans-serif;
+}
+#zip {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+#feelings {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+.submitButton {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(106, 241, 248);
+  background-color: #0a113a;
+  cursor: pointer;
+  border-color: black;
+  border-width: 3px;
+  padding: 1rem;
+  margin: 50px auto;
+  width: 42%;
+  display: block;
+}
+.submitButton:hover {
+  background-color: coral;
+  color: black;
+}
+
+#zipError,
+#feelingError {
+  background-color: #0a113a;
+  color: #fff;
+  font-size: large;
+  width: 20%;
+  padding: 0rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 1px 0px 30px 30px;
+  display: block;
+}
+
+#entry {
+  text-align: center;
+  font-size: larger;
+  width: 50%;
+  background: #07133340;
+  margin: 50px auto;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+#entry h2 {
+  text-align: center;
+}
