@@ -10,7 +10,7 @@ This project was about working with Web APIs and asynchronous code, creating a w
 
 ### Building
 
-Starter code taken from udacity [repository](https://https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app).
+Starter code taken from udacity [repository](https://github.com/udacity/fend/tree/refresh-2019/projects/weather-journal-app).
 
 To get the project up and running I followed these steps:
 
